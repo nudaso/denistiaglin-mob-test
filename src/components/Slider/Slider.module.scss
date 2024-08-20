@@ -1,0 +1,14 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+
+  .Hr {
+    border-top: 1px solid rgba(52, 125, 254, 1);
+  }
+}
+.ImgSize {
+  width: 100%;
+  height: 100%;
+}
+

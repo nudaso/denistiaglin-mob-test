@@ -1,0 +1,18 @@
+@import 'destyle.css';
+@import 'variables';
+
+
+
+body {
+  color: $main-white;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  line-height: 1.21;
+  background-color: $main-dark;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

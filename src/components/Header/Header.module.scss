@@ -1,0 +1,44 @@
+@import './../../variables.scss';
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.BurgerIcon {
+  background-image: url("./../../assets/Burger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.VectorDownIcon {
+  background-image: url("./../../assets/VectorDown.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin-left: 15px;
+}
+
+.LanguageSelect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
